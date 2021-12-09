@@ -2,22 +2,172 @@ body {
     font-family: "Roboto";
 }
 
-.top {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blue {
     background-color: #1F2937;
     color: white;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+    row-gap: 42px;
+    justify-content: space-between;
 }
 
 .links {
     display: flex;
+    margin-left: auto;
     column-gap: 12px;
+}
+
+.left_top {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.lt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.b1 {
+    background-color: #3882F6;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: auto;
+}
+
+.right_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_content {
+    display: flex;
+    column-gap: 18px;
+    justify-content: center;
+    
+}
+
+.middle_content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 24px;
+    height: 400px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     list-style: none;
 }
 
+.pictures {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.image1 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.image2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.image3 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.image4 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.grey {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.pastry {
+    height: auto;
+    width: 250px;
+}
+
+.bottom_content {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_text {
+    display: flex;
+    height: 200px;
+    padding: 24px;
+    background-color: #3882F6;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.author {
+    display: flex;
+    font-size: 24px;
+    width: 800px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.b2 {
+    height: 40px;
+    width: 100px;
+}
 
 img {
     height: auto;

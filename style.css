@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto";
+}
+
+.top {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    column-gap: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    height: auto;
+    width: 600px;
+}
